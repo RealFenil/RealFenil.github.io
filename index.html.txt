@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fenil | Portfolio</title>
+    <style>
+        /* Base Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 650px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+        header h1 {
+            font-size: 2.2rem;
+            color: #1e293b;
+            margin-bottom: 8px;
+        }
+        header p {
+            font-size: 1.1rem;
+            color: #64748b;
+            font-weight: 500;
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 1.3rem;
+            color: #0f172a;
+            margin-bottom: 12px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        p {
+            color: #475569;
+            font-size: 1rem;
+        }
+
+        /* Skills Tags */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        .skill-tag {
+            background-color: #f1f5f9;
+            color: #334155;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            border: 1px solid #e2e8f0;
+        }
+
+        /* Experience List */
+        .job {
+            margin-bottom: 15px;
+        }
+        .job-title {
+            font-weight: 600;
+            color: #1e293b;
+        }
+        .job-company {
+            font-size: 0.9rem;
+            color: #64748b;
+            margin-bottom: 4px;
+        }
+
+        /* Footer & Links */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background-color: #1d4ed8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Fenil</h1>
+            <p>IDS Student & Tech Enthusiast</p>
+        </header>
+
+        <!-- About Me -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am an Information and Decision Sciences (IDS) student at the University of Illinois Chicago. I have a strong foundation in IT infrastructure, hardware troubleshooting, and systems technician work. Currently, I am expanding my skill set into software development, focusing on Python and version control with Git.</p>
+        </section>
+
+        <!-- Technical Skills -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-list">
+                <span class="skill-tag">Python (In Progress)</span>
+                <span class="skill-tag">Git & GitHub</span>
+                <span class="skill-tag">IT Support & Troubleshooting</span>
+                <span class="skill-tag">Hardware Diagnostics</span>
+                <span class="skill-tag">System Imaging</span>
+                <span class="skill-tag">HTML & CSS</span>
+            </div>
+        </section>
+
+        <!-- Experience Snapshot -->
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <div class="job-title">IT Intern</div>
+                <div class="job-company">Antunes</div>
+            </div>
+            <div class="job">
+                <div class="job-title">Service Technician</div>
+                <div class="job-company">Insight</div>
+            </div>
+        </section>
+
+        <!-- Connect Button -->
+        <footer>
+            <a href="mailto:fp2468fp@gmail.com" class="btn">Get In Touch</a>
+        </footer>
+    </div>
+
+</body>
+</html>
